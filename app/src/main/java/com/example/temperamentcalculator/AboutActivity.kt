@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.temperamentcalculator.databinding.ActivityAboutBinding
-import com.example.temperamentcalculator.databinding.ActivityMainBinding
 
 class AboutActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAboutBinding
