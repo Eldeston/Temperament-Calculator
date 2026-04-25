@@ -1,0 +1,57 @@
+<resources>
+    <!-- MAIN INTERFACE SECTION -->
+
+    <!-- Front Page -->
+    <string name="app_name">Temperament Calculator 📈</string>
+    <string name="tag_line">Not to be confused with temperature</string>
+
+    <!-- About Page -->
+    <string name="about_label">About This App</string>
+    <string name="about_content">This app is made Assessment 2 of Android Development for Creative Computing L5.</string>
+
+    <!-- Buttons -->
+    <string name="start_button">Start</string>
+    <string name="about_button">About</string>
+    <string name="return_button">Return</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- Themes -->
+    <string name="dark_theme">Dark 🌙</string>
+    <string name="light_theme">Light ☀️</string>
+    <string name="default_theme">Default</string>
+
+    <!-- Toasts -->
+    <string name="theme_toast">Changing Theme…</string>
+    <string name="start_toast">Starting Calculator…</string>
+    <string name="calculate_toast">Calculating Temperament…</string>
+
+    <!-- TEMPERAMENT CALCULATOR SECTION -->
+
+    <!-- Stages -->
+    <string name="stage_0">Stage 1</string>
+    <string name="stage_1">Stage 2</string>
+    <string name="stage_2">Stage 3</string>
+
+    <!-- Questions -->
+    <string name="question_label_0">Question 1</string>
+
+    <!-- Options -->
+    <string name="option_button_0">Option 1</string>
+    <string name="option_button_1">Option 2</string>
+    <string name="option_button_2">Option 3</string>
+    <string name="option_button_3">Option 4</string>
+
+    <!-- RESULTS CALCULATOR SECTION -->
+
+    <!-- Stages -->
+    <string name="results_label">Calculator Results</string>
+
+    <!-- Temperaments -->
+    <string name="sanguine">Sanguine</string>
+    <string name="phlegmatic">Phlegmatic</string>
+    <string name="choleric">Choleric</string>
+    <string name="melancholic">Melancholic</string>
+
+    <!-- Buttons -->
+    <string name="repeat_button">Repeat</string>
+</resources>
