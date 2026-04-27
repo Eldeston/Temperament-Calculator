@@ -8,11 +8,11 @@
     tools:context=".AboutActivity">
 
     <Button
-        android:id="@+id/returnButton0"
+        android:id="@+id/homeButton0"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/return_button"
+        android:text="@string/home_button"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +46,8 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.414" />
 </androidx.constraintlayout.widget.ConstraintLayout>

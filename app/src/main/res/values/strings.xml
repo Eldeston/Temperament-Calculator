@@ -3,17 +3,17 @@
 
     <!-- Front Page -->
     <string name="app_name">Temperament Calculator 📈</string>
-    <string name="tag_line">Not to be confused with temperature</string>
+    <string name="tag_line">Not to be confused with a temperature calculator.</string>
 
     <!-- About Page -->
-    <string name="about_label">About This App</string>
-    <string name="about_content">This app is made Assessment 2 of Android Development for Creative Computing L5.</string>
+    <string name="about_label">About This App ℹ️</string>
+    <string name="about_content">This app is made Assessment 2 of Android Development for Creative Computing L5. The purpose of this app is to graph and display your temperament.\n\nKnowing your temperament allows you to discover how your brain is wired to think, and make decisions.</string>
 
     <!-- Buttons -->
-    <string name="start_button">Start</string>
-    <string name="about_button">About</string>
-    <string name="return_button">Return</string>
-    <string name="exit_button">Exit</string>
+    <string name="start_button">Start ❇️</string>
+    <string name="about_button">About ℹ️</string>
+    <string name="home_button">Home 🏠</string>
+    <string name="exit_button">Exit 👋</string>
 
     <!-- Themes -->
     <string name="dark_theme">Dark 🌙</string>
@@ -177,5 +177,5 @@
     <string name="final_temperament">%1$s, %2$s</string>
 
     <!-- Buttons -->
-    <string name="repeat_button">Repeat</string>
+    <string name="repeat_button">Repeat ♾️</string>
 </resources>

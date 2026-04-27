@@ -35,11 +35,11 @@
         app:layout_constraintVertical_bias="0.872" />
 
     <Button
-        android:id="@+id/returnButton1"
+        android:id="@+id/homeButton1"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/return_button"
+        android:text="@string/home_button"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
