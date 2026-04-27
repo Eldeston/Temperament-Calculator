@@ -1,5 +1,5 @@
 <resources>
-    <!-- MAIN INTERFACE SECTION -->
+    <!-- ================ MAIN INTERFACE SECTION ================ -->
 
     <!-- Front Page -->
     <string name="app_name">Temperament Calculator 📈</string>
@@ -25,32 +25,96 @@
     <string name="start_toast">Starting Calculator…</string>
     <string name="calculate_toast">Calculating Temperament…</string>
 
-    <!-- TEMPERAMENT CALCULATOR SECTION -->
+    <!-- ================ TEMPERAMENT CALCULATOR SECTION ================ -->
 
     <!-- Stages -->
     <string name="stage_0">Stage 1</string>
     <string name="stage_1">Stage 2</string>
     <string name="stage_2">Stage 3</string>
+    <string name="stage_3">Stage 4</string>
 
-    <!-- Questions -->
-    <string name="question_label_0">Question 1</string>
+    <!-- ================ PHLEGMATIC ================ -->
 
-    <!-- Options -->
-    <string name="option_button_0">Option 1</string>
-    <string name="option_button_1">Option 2</string>
-    <string name="option_button_2">Option 3</string>
-    <string name="option_button_3">Option 4</string>
+    <!-- Phlegmatic Questions -->
+    <string name="question_phlegmatic_0">You are placed in a group project. How do you usually respond?</string>
+    <string name="question_phlegmatic_1">When conflict arises among friends, what is your instinctive reaction?</string>
 
-    <!-- RESULTS CALCULATOR SECTION -->
+    <!-- Phlegmatic Options Q0 -->
+    <string name="option_phlegmatic_0_button_0">I quietly support the group and keep things steady</string>
+    <string name="option_phlegmatic_0_button_1">I wait for others to take the lead</string>
+    <string name="option_phlegmatic_0_button_2">I focus on keeping everyone calm</string>
+    <string name="option_phlegmatic_0_button_3">I avoid unnecessary tension and go with the flow</string>
+
+    <!-- Phlegmatic Options Q1 -->
+    <string name="option_phlegmatic_1_button_0">I try to mediate gently</string>
+    <string name="option_phlegmatic_1_button_1">I stay neutral and listen</string>
+    <string name="option_phlegmatic_1_button_2">I avoid taking sides</string>
+    <string name="option_phlegmatic_1_button_3">I encourage everyone to relax and talk it out</string>
+
+    <!-- ================ CHOLERIC ================ -->
+
+    <!-- Choleric Questions -->
+    <string name="question_choleric_0">When a challenge appears unexpectedly, how do you react?</string>
+    <string name="question_choleric_1">How do you behave when leading a team?</string>
+
+    <!-- Choleric Options Q0 -->
+    <string name="option_choleric_0_button_0">I take charge immediately</string>
+    <string name="option_choleric_0_button_1">I push forward with determination</string>
+    <string name="option_choleric_0_button_2">I focus on solving the problem fast</string>
+    <string name="option_choleric_0_button_3">I assert control to keep things efficient</string>
+
+    <!-- Choleric Options Q1 -->
+    <string name="option_choleric_1_button_0">I set clear goals and expect results</string>
+    <string name="option_choleric_1_button_1">I make decisions quickly</string>
+    <string name="option_choleric_1_button_2">I motivate others through direction</string>
+    <string name="option_choleric_1_button_3">I take responsibility for outcomes</string>
+
+    <!-- ================ SANGUINE ================ -->
+
+    <!-- Sanguine Questions -->
+    <string name="question_sanguine_0">How do you behave when entering a social gathering?</string>
+    <string name="question_sanguine_1">When sharing ideas, what describes you best?</string>
+
+    <!-- Sanguine Options Q0 -->
+    <string name="option_sanguine_0_button_0">I greet people enthusiastically</string>
+    <string name="option_sanguine_0_button_1">I start conversations easily</string>
+    <string name="option_sanguine_0_button_2">I bring energy into the room</string>
+    <string name="option_sanguine_0_button_3">I enjoy meeting new people</string>
+
+    <!-- Sanguine Options Q1 -->
+    <string name="option_sanguine_1_button_0">I express ideas with excitement</string>
+    <string name="option_sanguine_1_button_1">I talk freely and openly</string>
+    <string name="option_sanguine_1_button_2">I inspire others with enthusiasm</string>
+    <string name="option_sanguine_1_button_3">I enjoy brainstorming out loud</string>
+
+    <!-- ================ MELANCHOLIC ================ -->
+
+    <!-- Melancholic Questions -->
+    <string name="question_melancholic_0">When planning something important, how do you approach it?</string>
+    <string name="question_melancholic_1">How do you respond when something doesn’t go as expected?</string>
+
+    <!-- Melancholic Options Q0 -->
+    <string name="option_melancholic_0_button_0">I analyze every detail carefully</string>
+    <string name="option_melancholic_0_button_1">I create structured plans</string>
+    <string name="option_melancholic_0_button_2">I think deeply before acting</string>
+    <string name="option_melancholic_0_button_3">I prefer precision and clarity</string>
+
+    <!-- Melancholic Options Q1 -->
+    <string name="option_melancholic_1_button_0">I reflect on what went wrong</string>
+    <string name="option_melancholic_1_button_1">I become more cautious</string>
+    <string name="option_melancholic_1_button_2">I try to understand the cause thoroughly</string>
+    <string name="option_melancholic_1_button_3">I adjust my plans carefully</string>
+
+    <!-- ================ RESULTS CALCULATOR SECTION ================ -->
 
     <!-- Stages -->
     <string name="results_label">Calculator Results</string>
 
     <!-- Temperaments -->
-    <string name="sanguine">Sanguine</string>
-    <string name="phlegmatic">Phlegmatic</string>
-    <string name="choleric">Choleric</string>
-    <string name="melancholic">Melancholic</string>
+    <string name="score_sanguine">Sanguine Score: </string>
+    <string name="score_phlegmatic">Phlegmatic Score: </string>
+    <string name="score_choleric">Choleric Score: </string>
+    <string name="score_melancholic">Melancholic Score: </string>
 
     <!-- Buttons -->
     <string name="repeat_button">Repeat</string>
