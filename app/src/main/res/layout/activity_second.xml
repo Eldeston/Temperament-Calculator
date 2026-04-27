@@ -8,41 +8,11 @@
     tools:context=".SecondActivity">
 
     <Button
-        android:id="@+id/optionButton1"
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/option_choleric_0_button_1"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533" />
-
-    <Button
-        android:id="@+id/optionButton2"
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/option_choleric_0_button_2"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
-
-    <Button
         android:id="@+id/optionButton0"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/option_choleric_0_button_0"
+        android:text="@string/option_0_stage_0_choleric"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,11 +23,11 @@
         app:layout_constraintVertical_bias="0.442" />
 
     <Button
-        android:id="@+id/optionButton3"
+        android:id="@+id/optionButton1"
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/option_choleric_0_button_3"
+        android:text="@string/option_0_stage_0_melancholic"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,7 +35,37 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.571" />
+
+    <Button
+        android:id="@+id/optionButton3"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jetbrains_mono"
+        android:text="@string/option_0_stage_0_sanguine"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <Button
+        android:id="@+id/optionButton2"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jetbrains_mono"
+        android:text="@string/option_0_stage_0_phlegmatic"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
 
     <TextView
         android:id="@+id/stageLabel"
@@ -86,7 +86,7 @@
         android:layout_width="256dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
-        android:text="@string/question_choleric_0"
+        android:text="@string/question_0_stage_0"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
