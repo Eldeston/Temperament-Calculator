@@ -103,10 +103,7 @@
     <string name="results_label">Calculator Results</string>
 
     <!-- Temperaments -->
-    <string name="score_sanguine">Sanguine Score: </string>
-    <string name="score_phlegmatic">Phlegmatic Score: </string>
-    <string name="score_choleric">Choleric Score: </string>
-    <string name="score_melancholic">Melancholic Score: </string>
+    <string name="score_coordinate">Coordinate Score: %1$d, %2$d</string>
 
     <!-- Buttons -->
     <string name="repeat_button">Repeat</string>
