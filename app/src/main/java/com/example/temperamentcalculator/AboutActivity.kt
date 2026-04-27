@@ -25,7 +25,7 @@ class AboutActivity : AppCompatActivity() {
             insets
         }
 
-        binding.returnButton0.setOnClickListener {
+        binding.homeButton0.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }

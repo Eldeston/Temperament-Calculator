@@ -56,7 +56,7 @@ class ResultsActivity : AppCompatActivity() {
             startActivity(Intent(this, SecondActivity::class.java))
         }
 
-        binding.returnButton1.setOnClickListener {
+        binding.homeButton1.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
     }
