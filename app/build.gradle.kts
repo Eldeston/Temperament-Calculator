@@ -56,4 +56,5 @@ dependencies {
 
     // Additional dependencies
     implementation(libs.androidx.appcompat)
+    implementation(libs.mpandroidchart)
 }
