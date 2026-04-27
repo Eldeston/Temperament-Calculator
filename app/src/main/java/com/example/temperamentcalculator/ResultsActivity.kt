@@ -14,15 +14,22 @@ class ResultsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_results)
+
+        binding = ActivityResultsBinding.inflate(layoutInflater)
+        // setContentView(R.layout.activity_results)
+        setContentView(binding.root)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-        val binding = ActivityResultsBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        val x = intent.getIntExtra("scoreX", 0)
+        val y = intent.getIntExtra("scoreY", 0)
+
+        // For testing: show raw X/Y values in all labels
+        binding.coordinateScore.text = getString(R.string.score_coordinate, x, y)
 
         binding.repeatButton.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
