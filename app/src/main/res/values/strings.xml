@@ -34,20 +34,36 @@
     <string name="stage_3">Stage 4</string>
 
     <!-- STAGE 0 — QUESTION 0 -->
-    <string name="question_0_stage_0">You are placed in a group project. How do you usually respond?</string>
+    <string name="question_0_stage_0">How do you usually behave when meeting new people?</string>
 
-    <string name="option_0_stage_0_phlegmatic">I help keep the group steady and avoid tension</string>
-    <string name="option_0_stage_0_choleric">I take charge and organize what needs to be done</string>
-    <string name="option_0_stage_0_sanguine">I connect with everyone and boost the group’s energy</string>
-    <string name="option_0_stage_0_melancholic">I analyze the task and plan the structure carefully</string>
-    
+    <string name="option_0_stage_0_phlegmatic">I stay relaxed and let conversations unfold naturally</string>
+    <string name="option_0_stage_0_choleric">I introduce myself confidently and directly</string>
+    <string name="option_0_stage_0_sanguine">I greet people warmly and start conversations easily</string>
+    <string name="option_0_stage_0_melancholic">I observe first and engage thoughtfully</string>
+
     <!-- STAGE 0 — QUESTION 1 -->
-    <string name="question_1_stage_0">When conflict arises among friends, what is your instinctive reaction?</string>
+    <string name="question_1_stage_0">When starting a simple task, what describes your approach?</string>
 
-    <string name="option_1_stage_0_phlegmatic">I stay calm and try to keep everyone grounded</string>
-    <string name="option_1_stage_0_choleric">I step in and push for a quick resolution</string>
-    <string name="option_1_stage_0_sanguine">I lighten the mood and ease the tension</string>
-    <string name="option_1_stage_0_melancholic">I reflect on the issue to understand the root cause</string>
+    <string name="option_1_stage_0_phlegmatic">I take it slow and steady</string>
+    <string name="option_1_stage_0_choleric">I jump in and get it done quickly</string>
+    <string name="option_1_stage_0_sanguine">I bring energy and make it enjoyable</string>
+    <string name="option_1_stage_0_melancholic">I plan the steps before beginning</string>
+
+    <!-- STAGE 0 — QUESTION 2 -->
+    <string name="question_2_stage_0">How do you respond when someone casually asks for help?</string>
+
+    <string name="option_2_stage_0_phlegmatic">I assist calmly without making it complicated</string>
+    <string name="option_2_stage_0_choleric">I take charge and solve it efficiently</string>
+    <string name="option_2_stage_0_sanguine">I help with enthusiasm and encouragement</string>
+    <string name="option_2_stage_0_melancholic">I understand the need and offer a careful solution</string>
+
+    <!-- STAGE 0 — QUESTION 3 -->
+    <string name="question_3_stage_0">How do you act in a relaxed group setting?</string>
+
+    <string name="option_3_stage_0_phlegmatic">I stay easygoing and blend in comfortably</string>
+    <string name="option_3_stage_0_choleric">I naturally guide the flow of the group</string>
+    <string name="option_3_stage_0_sanguine">I keep the energy lively and engaging</string>
+    <string name="option_3_stage_0_melancholic">I observe dynamics and contribute thoughtfully</string>
 
     <!-- STAGE 1 — QUESTION 0 -->
     <string name="question_0_stage_1">When a challenge appears unexpectedly, how do you react?</string>
@@ -56,46 +72,94 @@
     <string name="option_0_stage_1_choleric">I confront it head‑on and take control</string>
     <string name="option_0_stage_1_sanguine">I stay optimistic and look for creative solutions</string>
     <string name="option_0_stage_1_melancholic">I pause to analyze the details before acting</string>
-    
-    <!-- STAGE 1 — QUESTION 1 -->
-    <string name="question_1_stage_1">How do you behave when leading a team?</string>
 
-    <string name="option_1_stage_1_phlegmatic">I maintain harmony and keep things steady</string>
-    <string name="option_1_stage_1_choleric">I set direction and drive the team forward</string>
-    <string name="option_1_stage_1_sanguine">I motivate others with enthusiasm</string>
-    <string name="option_1_stage_1_melancholic">I ensure structure, clarity, and precision</string>
+    <!-- STAGE 1 — QUESTION 1 -->
+    <string name="question_1_stage_1">When conflict arises, what is your instinctive response?</string>
+
+    <string name="option_1_stage_1_phlegmatic">I stay calm and keep things grounded</string>
+    <string name="option_1_stage_1_choleric">I step in and push for resolution</string>
+    <string name="option_1_stage_1_sanguine">I ease tension and lighten the mood</string>
+    <string name="option_1_stage_1_melancholic">I reflect to understand the root cause</string>
+
+    <!-- STAGE 1 — QUESTION 2 -->
+    <string name="question_2_stage_1">How do you behave when working under pressure?</string>
+
+    <string name="option_2_stage_1_phlegmatic">I stay steady and avoid unnecessary stress</string>
+    <string name="option_2_stage_1_choleric">I push forward decisively to meet the goal</string>
+    <string name="option_2_stage_1_sanguine">I stay upbeat and keep morale high</string>
+    <string name="option_2_stage_1_melancholic">I focus deeply and maintain accuracy</string>
+
+    <!-- STAGE 1 — QUESTION 3 -->
+    <string name="question_3_stage_1">How do you respond when someone disagrees with you?</string>
+
+    <string name="option_3_stage_1_phlegmatic">I listen openly and stay calm</string>
+    <string name="option_3_stage_1_choleric">I assert my view and seek clarity</string>
+    <string name="option_3_stage_1_sanguine">I explore alternatives with positivity</string>
+    <string name="option_3_stage_1_melancholic">I analyze their reasoning carefully</string>
 
     <!-- STAGE 2 — QUESTION 0 -->
     <string name="question_0_stage_2">How do you behave when entering a social gathering?</string>
 
-    <string name="option_0_stage_2_phlegmatic">I stay relaxed and observe before engaging</string>
-    <string name="option_0_stage_2_choleric">I take initiative and move with purpose</string>
-    <string name="option_0_stage_2_sanguine">I greet people energetically and start conversations</string>
-    <string name="option_0_stage_2_melancholic">I approach interactions thoughtfully and carefully</string>
-    
+    <string name="option_0_stage_2_phlegmatic">I stay relaxed and observe first</string>
+    <string name="option_0_stage_2_choleric">I move with purpose and take initiative</string>
+    <string name="option_0_stage_2_sanguine">I greet people energetically</string>
+    <string name="option_0_stage_2_melancholic">I approach interactions thoughtfully</string>
+
     <!-- STAGE 2 — QUESTION 1 -->
     <string name="question_1_stage_2">When sharing ideas, what describes you best?</string>
 
     <string name="option_1_stage_2_phlegmatic">I share calmly and avoid overwhelming others</string>
-    <string name="option_1_stage_2_choleric">I present ideas decisively and confidently</string>
-    <string name="option_1_stage_2_sanguine">I express ideas with excitement and openness</string>
-    <string name="option_1_stage_2_melancholic">I explain ideas thoroughly and with detail</string>
+    <string name="option_1_stage_2_choleric">I present ideas decisively</string>
+    <string name="option_1_stage_2_sanguine">I express ideas with excitement</string>
+    <string name="option_1_stage_2_melancholic">I explain ideas thoroughly</string>
+
+    <!-- STAGE 2 — QUESTION 2 -->
+    <string name="question_2_stage_2">How do you behave when someone interrupts your plans?</string>
+
+    <string name="option_2_stage_2_phlegmatic">I adjust smoothly</string>
+    <string name="option_2_stage_2_choleric">I redirect and stay in control</string>
+    <string name="option_2_stage_2_sanguine">I adapt quickly and stay positive</string>
+    <string name="option_2_stage_2_melancholic">I reorganize the plan carefully</string>
+
+    <!-- STAGE 2 — QUESTION 3 -->
+    <string name="question_3_stage_2">How do you react when someone shares exciting news?</string>
+
+    <string name="option_3_stage_2_phlegmatic">I respond warmly but calmly</string>
+    <string name="option_3_stage_2_choleric">I acknowledge it confidently</string>
+    <string name="option_3_stage_2_sanguine">I celebrate enthusiastically</string>
+    <string name="option_3_stage_2_melancholic">I appreciate the meaning behind it</string>
 
     <!-- STAGE 3 — QUESTION 0 -->
     <string name="question_0_stage_3">When planning something important, how do you approach it?</string>
 
     <string name="option_0_stage_3_phlegmatic">I keep things simple and steady</string>
     <string name="option_0_stage_3_choleric">I set goals and move quickly</string>
-    <string name="option_0_stage_3_sanguine">I brainstorm possibilities and stay flexible</string>
-    <string name="option_0_stage_3_melancholic">I plan carefully and analyze every detail</string>
+    <string name="option_0_stage_3_sanguine">I brainstorm possibilities</string>
+    <string name="option_0_stage_3_melancholic">I analyze every detail</string>
 
     <!-- STAGE 3 — QUESTION 1 -->
-    <string name="question_1_stage_3">How do you respond when something doesn’t go as expected?</string>
+    <string name="question_1_stage_3">How do you respond when things don’t go as expected?</string>
 
-    <string name="option_1_stage_3_phlegmatic">I stay calm and adjust smoothly</string>
-    <string name="option_1_stage_3_choleric">I take control and push through obstacles</string>
-    <string name="option_1_stage_3_sanguine">I stay positive and look for alternatives</string>
-    <string name="option_1_stage_3_melancholic">I reflect on what went wrong and refine my approach</string>
+    <string name="option_1_stage_3_phlegmatic">I stay calm and adjust</string>
+    <string name="option_1_stage_3_choleric">I push through obstacles</string>
+    <string name="option_1_stage_3_sanguine">I stay positive and adapt</string>
+    <string name="option_1_stage_3_melancholic">I reflect and refine my approach</string>
+
+    <!-- STAGE 3 — QUESTION 2 -->
+    <string name="question_2_stage_3">When working toward a long‑term goal, how do you stay on track?</string>
+
+    <string name="option_2_stage_3_phlegmatic">I maintain a steady pace</string>
+    <string name="option_2_stage_3_choleric">I push forward with determination</string>
+    <string name="option_2_stage_3_sanguine">I keep things engaging and fun</string>
+    <string name="option_2_stage_3_melancholic">I follow a structured plan</string>
+
+    <!-- STAGE 3 — QUESTION 3 -->
+    <string name="question_3_stage_3">How do you respond when someone relies on you for something important?</string>
+
+    <string name="option_3_stage_3_phlegmatic">I support them calmly and reliably</string>
+    <string name="option_3_stage_3_choleric">I take charge and ensure it gets done</string>
+    <string name="option_3_stage_3_sanguine">I encourage them with positivity</string>
+    <string name="option_3_stage_3_melancholic">I handle it seriously and precisely</string>
 
     <!-- ================ RESULTS CALCULATOR SECTION ================ -->
 
@@ -103,7 +167,14 @@
     <string name="results_label">Calculator Results</string>
 
     <!-- Temperaments -->
+    <string name="phlegmatic">Phlegmatic-</string>
+    <string name="choleric">Choleric+</string>
+    <string name="sanguine">Sanguine+</string>
+    <string name="melancholic">Melancholic-</string>
+
+    <!-- Labels -->
     <string name="score_coordinate">Coordinate Score: %1$d, %2$d</string>
+    <string name="final_temperament">%1$s, %2$s</string>
 
     <!-- Buttons -->
     <string name="repeat_button">Repeat</string>
