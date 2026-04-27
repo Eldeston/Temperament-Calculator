@@ -55,5 +55,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Additional dependencies
-    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation(libs.androidx.appcompat)
 }
