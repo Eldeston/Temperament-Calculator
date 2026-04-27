@@ -73,6 +73,6 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun calculatorIndexToStage(): Int {
-        return calculator.getCurrentIndex() / 2
+        return calculator.getCurrentIndex() / 4
     }
 }
