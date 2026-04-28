@@ -62,6 +62,8 @@ class ResultsActivity : AppCompatActivity() {
     }
 
     private fun setupTemperamentChart(x: Int, y: Int) {
+        val maxGraphScore = 40f
+
         val chart = binding.temperamentChart
 
         // --- Clean base style ---
@@ -71,7 +73,7 @@ class ResultsActivity : AppCompatActivity() {
         chart.setDrawBorders(false)
 
         // --- Prevent clipping ---
-        chart.setExtraOffsets(16f, 16f, 16f, 16f)
+        chart.setExtraOffsets(maxGraphScore, maxGraphScore, maxGraphScore, maxGraphScore)
 
         // --- Remove number labels for perfect centering ---
         chart.xAxis.setDrawLabels(false)
@@ -88,10 +90,10 @@ class ResultsActivity : AppCompatActivity() {
         chart.axisRight.setDrawAxisLine(false)
 
         // --- Axis bounds (updated for 16 questions) ---
-        chart.xAxis.axisMinimum = -16f
-        chart.xAxis.axisMaximum = 16f
-        chart.axisLeft.axisMinimum = -16f
-        chart.axisLeft.axisMaximum = 16f
+        chart.xAxis.axisMinimum = -maxGraphScore
+        chart.xAxis.axisMaximum = maxGraphScore
+        chart.axisLeft.axisMinimum = -maxGraphScore
+        chart.axisLeft.axisMaximum = maxGraphScore
 
         // Soft green (not neon)
         val softGreen = Color.rgb(80, 200, 120)

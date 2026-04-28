@@ -3,7 +3,7 @@
 
     <!-- Front Page -->
     <string name="app_name">Temperament\nCalculator 📈</string>
-    <string name="tag_line">Not to be confused with a temperature calculator.</string>
+    <string name="tag_line">Not to be confused with\na temperature calculator.</string>
 
     <!-- About Page -->
     <string name="about_label">About This App ℹ️</string>

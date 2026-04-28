@@ -52,14 +52,22 @@ class TemperamentCalculator(context: Context) {
         questions = list
     }
 
-    fun getCurrentQuestion(): Question = questions[index]
-
     fun submitAnswer(optionIndex: Int) {
         val (x, y) = questions[index].weights[optionIndex]
-        scoreX += x
-        scoreY += y
+
+        val m = stageMultiplier()
+
+        scoreX += x * m
+        scoreY += y * m
+
         index++
     }
+
+    fun stageMultiplier(): Int {
+        return (index / 4) + 1
+    }
+
+    fun getCurrentQuestion(): Question = questions[index]
 
     fun isFinished(): Boolean = index >= questions.size
 
