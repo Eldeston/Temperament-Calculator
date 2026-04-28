@@ -2,7 +2,7 @@
     <!-- ================ MAIN INTERFACE SECTION ================ -->
 
     <!-- Front Page -->
-    <string name="app_name">Temperament Calculator 📈</string>
+    <string name="app_name">Temperament\nCalculator 📈</string>
     <string name="tag_line">Not to be confused with a temperature calculator.</string>
 
     <!-- About Page -->
@@ -27,11 +27,8 @@
 
     <!-- ================ TEMPERAMENT CALCULATOR SECTION ================ -->
 
-    <!-- Stages -->
-    <string name="stage_0">Stage 1</string>
-    <string name="stage_1">Stage 2</string>
-    <string name="stage_2">Stage 3</string>
-    <string name="stage_3">Stage 4</string>
+    <!-- Stage Label -->
+    <string name="stage_label">Stage %1$d\nQuestion %2$d</string>
 
     <!-- STAGE 0 — QUESTION 0 -->
     <string name="question_0_stage_0">How do you usually behave when meeting new people?</string>

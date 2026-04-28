@@ -36,25 +36,18 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun showQuestion() {
-        val q = calculator.getCurrentQuestion()
+        val question = calculator.getCurrentQuestion()
 
-        binding.questionLabel.text = q.text
-        binding.optionButton0.text = q.options[0]
-        binding.optionButton1.text = q.options[1]
-        binding.optionButton2.text = q.options[2]
-        binding.optionButton3.text = q.options[3]
+        binding.questionLabel.text = question.text
+        binding.optionButton0.text = question.options[0]
+        binding.optionButton1.text = question.options[1]
+        binding.optionButton2.text = question.options[2]
+        binding.optionButton3.text = question.options[3]
 
-        val stage = calculatorIndexToStage()
+        val questionNum = calculator.getCurrentIndex()
+        val stageNum = questionNum / 4
 
-        val stageStringId = when (stage) {
-            0 -> R.string.stage_0
-            1 -> R.string.stage_1
-            2 -> R.string.stage_2
-            3 -> R.string.stage_3
-            else -> R.string.stage_0
-        }
-
-        binding.stageLabel.text = getString(stageStringId)
+        binding.stageLabel.text = getString(R.string.stage_label, stageNum + 1, questionNum + 1)
     }
 
     private fun handleAnswer(optionIndex: Int) {
@@ -70,9 +63,5 @@ class SecondActivity : AppCompatActivity() {
         }
 
         showQuestion()
-    }
-
-    private fun calculatorIndexToStage(): Int {
-        return calculator.getCurrentIndex() / 4
     }
 }

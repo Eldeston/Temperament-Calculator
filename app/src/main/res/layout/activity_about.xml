@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/homeButton0"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/home_button"
@@ -38,7 +38,7 @@
 
     <TextView
         android:id="@+id/aboutContent"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/about_content"

@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/startButton"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/start_button"
@@ -24,7 +24,7 @@
 
     <Button
         android:id="@+id/aboutButton"
-        android:layout_width="256dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/about_button"
@@ -39,7 +39,7 @@
 
     <TextView
         android:id="@+id/tagLabel"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/tag_line"
@@ -47,10 +47,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.347" />
 
     <TextView
         android:id="@+id/appLabel"
@@ -62,10 +62,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.265" />
 
     <Switch
         android:id="@+id/themeSwitch"
