@@ -88,6 +88,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/jetbrains_mono"
         android:text="@string/question_0_stage_0"
+        android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
