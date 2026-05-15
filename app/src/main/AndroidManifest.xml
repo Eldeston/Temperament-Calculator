@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TemperamentCalculator">
         <activity
+            android:name=".InfoActivity"
+            android:exported="false" />
+        <activity
             android:name=".ResultsActivity"
             android:exported="false" />
         <activity
