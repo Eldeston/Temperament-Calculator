@@ -20,6 +20,7 @@ class ResultsActivity : AppCompatActivity() {
         enableEdgeToEdge()
 
         binding = ActivityResultsBinding.inflate(layoutInflater)
+        // setContentView(R.layout.activity_info)
         setContentView(binding.root)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -58,6 +59,10 @@ class ResultsActivity : AppCompatActivity() {
 
         binding.homeButton1.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
+        }
+
+        binding.infoButton.setOnClickListener {
+            startActivity(Intent(this, InfoActivity::class.java))
         }
     }
 

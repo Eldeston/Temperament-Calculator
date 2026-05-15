@@ -9,11 +9,16 @@
     <string name="about_label">About This App ℹ️</string>
     <string name="about_content">This app is made Assessment 2 of Android Development for Creative Computing L5. The purpose of this app is to graph and display your temperament.\n\nKnowing your temperament allows you to discover how your brain is wired to think, and make decisions.</string>
 
+    <!-- About Page -->
+    <string name="info_label">About Temperaments ℹ️</string>
+    <string name="info_content">SANGUINE 😄 — energetic, social, enthusiastic; thrives on connection and excitement.\n\nCHOLERIC 🔥 — driven, decisive, goal‑oriented; naturally takes charge and pushes forward.\n\nPHLEGMATIC 🌿 — calm, steady, patient; brings harmony and emotional stability.\n\nMELANCHOLIC 🌙 — analytical, thoughtful, detail‑focused; values structure and depth.</string>
+
     <!-- Buttons -->
     <string name="start_button">Start ❇️</string>
     <string name="about_button">About ℹ️</string>
     <string name="home_button">Home 🏠</string>
     <string name="exit_button">Exit 👋</string>
+    <string name="return_button">Return ◀️</string>
 
     <!-- Themes -->
     <string name="dark_theme">Dark 🌙</string>
